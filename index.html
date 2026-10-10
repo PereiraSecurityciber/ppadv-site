@@ -1,0 +1,1244 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prêmios e Certificações | Pelegrinelli & Padoan Advogados</title>
+<meta name="description" content="Pelegrinelli e Padoan Sociedade de Advogados: tomada de decisões jurídicas de forma inteligente. Prêmio Líder Empresarial, LLM na Loyola University Chicago e Educação Executiva no Insper.">
+<meta name="theme-color" content="#0b1424">
+<link rel="icon" href="assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy-950:#070d18;
+    --navy-900:#0b1424;
+    --navy-800:#111e35;
+    --navy-700:#1a2b4a;
+    --brand-blue:#3c5fa8;
+    --brand-red:#e0303a;
+    --gold:#c9a45c;
+    --gold-light:#e6cc93;
+    --gold-dark:#9c7a3a;
+    --ivory:#f6f1e7;
+    --paper:#fbf9f4;
+    --ink:#1b2333;
+    --ink-soft:#4c5568;
+    --muted:#8a93a6;
+    --body-dark:#aab2c2;
+    --line:rgba(201,164,92,.22);
+    --line-light:rgba(27,35,51,.12);
+    --shadow:0 30px 60px -20px rgba(0,0,0,.55);
+    --serif:"Cormorant Garamond", Georgia, "Times New Roman", serif;
+    --sans:"Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  *,*::before,*::after{box-sizing:border-box}
+  html{scroll-behavior:smooth;scroll-padding-top:90px}
+  body{
+    margin:0;background:var(--navy-950);color:var(--ivory);
+    font-family:var(--sans);font-weight:300;line-height:1.7;
+    -webkit-font-smoothing:antialiased;overflow-x:hidden;
+  }
+  img{max-width:100%;display:block;height:auto}
+  a{color:inherit;text-decoration:none}
+  .container{width:min(1180px,100% - 32px);margin-inline:auto}
+  .skip{position:absolute;left:-999px;top:8px;background:var(--gold);color:var(--navy-950);padding:8px 14px;border-radius:6px;z-index:200}
+  .skip:focus{left:8px}
+  :focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:2px}
+
+  /* ---------- Header (claro, para preservar as cores originais da logo) ---------- */
+  header.site{
+    position:fixed;inset:0 0 auto 0;z-index:50;
+    background:rgba(251,249,244,.96);backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--line-light);
+    transition:box-shadow .4s, height .4s;
+  }
+  header.site.scrolled{box-shadow:0 10px 30px -12px rgba(7,13,24,.35)}
+  .nav{display:flex;align-items:center;justify-content:space-between;gap:24px;height:84px;transition:height .4s}
+  header.site.scrolled .nav{height:70px}
+  .brand img{height:54px;width:auto;transition:height .4s}
+  header.site.scrolled .brand img{height:44px}
+  .menu{display:flex;gap:26px;list-style:none;margin:0;padding:0}
+  .menu a{font-size:.74rem;font-weight:500;letter-spacing:.15em;text-transform:uppercase;color:var(--ink-soft);position:relative;padding:6px 0}
+  .menu a::after{content:"";position:absolute;left:0;bottom:0;width:0;height:1px;background:var(--brand-red);transition:width .3s}
+  .menu a:hover,.menu a.active{color:var(--navy-900)}
+  .menu a:hover::after,.menu a.active::after{width:100%}
+  .btn{
+    display:inline-flex;align-items:center;gap:10px;padding:14px 26px;
+    font-family:var(--sans);font-size:.76rem;font-weight:500;letter-spacing:.16em;text-transform:uppercase;
+    border:1px solid var(--gold);color:var(--navy-950);background:var(--gold);
+    transition:background .3s,color .3s,transform .3s, box-shadow .3s;cursor:pointer;
+  }
+  .btn:hover{background:var(--gold-light);transform:translateY(-2px);box-shadow:0 12px 30px -10px rgba(201,164,92,.6)}
+  .btn.ghost{background:transparent;color:var(--gold-light)}
+  .btn.ghost:hover{background:rgba(201,164,92,.1)}
+  .btn.navy{background:var(--navy-900);border-color:var(--navy-900);color:var(--ivory)}
+  .btn.navy:hover{background:var(--navy-700);box-shadow:0 12px 30px -10px rgba(7,13,24,.5)}
+  .btn svg{width:16px;height:16px}
+  .nav .btn{padding:11px 18px}
+  .burger{display:none;background:none;border:1px solid var(--line-light);width:44px;height:44px;color:var(--navy-900);cursor:pointer}
+  .burger span{display:block;width:18px;height:1.5px;background:currentColor;margin:4px auto;transition:transform .3s,opacity .3s}
+
+  /* ---------- Hero ---------- */
+  .hero{position:relative;min-height:100vh;min-height:100svh;display:flex;align-items:center;overflow:hidden;
+    background:radial-gradient(1200px 700px at 75% 45%, rgba(26,43,74,.95), transparent 60%),
+               linear-gradient(180deg,var(--navy-900),var(--navy-950));}
+  #scene{position:absolute;inset:0;width:100%;height:100%}
+  .hero::after{content:"";position:absolute;inset:auto 0 0 0;height:180px;background:linear-gradient(transparent,var(--navy-950));pointer-events:none}
+  .hero-inner{position:relative;z-index:2;padding:150px 0 110px;pointer-events:none}
+  .hero-inner > *{pointer-events:auto}
+  .eyebrow{display:inline-flex;align-items:center;gap:14px;font-size:.72rem;font-weight:500;letter-spacing:.28em;text-transform:uppercase;color:var(--gold)}
+  .eyebrow::before{content:"";width:42px;height:1px;background:currentColor}
+  .hero h1{
+    font-family:var(--serif);font-weight:500;font-size:clamp(2.6rem,6vw,5.2rem);line-height:1.03;
+    margin:22px 0 24px;max-width:13ch;letter-spacing:-.01em;
+  }
+  .hero h1 em{font-style:italic;color:var(--gold-light)}
+  .hero p.lead{max-width:540px;color:#b9c0cf;font-size:1.05rem;margin:0 0 38px}
+  .ctas{display:flex;flex-wrap:wrap;gap:14px}
+  .scroll-cue{position:absolute;left:50%;bottom:34px;transform:translateX(-50%);z-index:3;display:flex;flex-direction:column;align-items:center;gap:10px;font-size:.64rem;letter-spacing:.3em;text-transform:uppercase;color:var(--muted)}
+  .scroll-cue i{width:1px;height:46px;background:linear-gradient(var(--gold),transparent);animation:cue 2.2s ease-in-out infinite}
+  @keyframes cue{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+
+  /* ---------- Pilares (conteúdo dos banners do site) ---------- */
+  .pillars{position:relative;z-index:4;margin-top:-70px}
+  .pillars-grid{display:grid;grid-template-columns:repeat(3,1fr);background:var(--navy-900);border:1px solid var(--line);box-shadow:var(--shadow)}
+  .pillar{padding:38px 34px;border-right:1px solid var(--line);position:relative}
+  .pillar:last-child{border-right:0}
+  .pillar svg{width:30px;height:30px;color:var(--gold);margin-bottom:18px}
+  .pillar h3{font-family:var(--serif);font-size:1.55rem;font-weight:600;margin:0 0 8px;line-height:1.2}
+  .pillar p{margin:0;color:var(--body-dark);font-size:.93rem}
+
+  /* ---------- Sections ---------- */
+  section{padding:130px 0}
+  .section-head{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:end;margin-bottom:64px}
+  .section-head h2{font-family:var(--serif);font-weight:500;font-size:clamp(2.2rem,4.4vw,3.5rem);line-height:1.08;margin:16px 0 0}
+  .section-head h2 em{color:var(--gold-light)}
+  .section-head p{color:var(--body-dark);margin:0;max-width:500px}
+  .light{background:var(--paper);color:var(--ink)}
+  .light .eyebrow{color:var(--gold-dark)}
+  .light .section-head p{color:var(--ink-soft)}
+  .light .section-head h2 em{color:var(--brand-blue)}
+
+  /* ---------- Escritório ---------- */
+  .office{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+  .office-media{position:relative;perspective:1200px}
+  .office-media .frame{position:relative;transform-style:preserve-3d;transition:transform .6s cubic-bezier(.2,.7,.2,1)}
+  .office-media img{width:100%;aspect-ratio:4/3;object-fit:cover;box-shadow:0 40px 80px -30px rgba(7,13,24,.5)}
+  .office-media .frame::before{content:"";position:absolute;inset:-22px 22px 22px -22px;border:1px solid var(--gold);transform:translateZ(-40px);pointer-events:none}
+  .office-badge{position:absolute;right:-24px;bottom:-30px;background:var(--navy-900);color:var(--ivory);padding:26px 30px;transform:translateZ(60px);box-shadow:var(--shadow)}
+  .office-badge b{display:block;font-family:var(--serif);font-size:3rem;line-height:1;color:var(--gold-light)}
+  .office-badge span{font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+  .office-text h2{font-family:var(--serif);font-weight:500;font-size:clamp(2.1rem,4vw,3.2rem);line-height:1.1;margin:16px 0 24px}
+  .office-text h2 em{color:var(--brand-blue)}
+  .office-text p{color:var(--ink-soft);margin:0 0 18px}
+  .office-text blockquote{margin:30px 0 0;padding:4px 0 4px 24px;border-left:2px solid var(--brand-red);font-family:var(--serif);font-size:1.5rem;font-style:italic;color:var(--navy-900);line-height:1.35}
+  .feats{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:30px}
+  .feat{display:flex;gap:14px;align-items:flex-start}
+  .feat svg{flex:none;width:24px;height:24px;color:var(--gold-dark);margin-top:2px}
+  .feat strong{display:block;font-weight:600;color:var(--navy-900);font-size:.95rem}
+  .feat span{font-size:.86rem;color:var(--ink-soft)}
+
+  /* ---------- Certificações ---------- */
+  .certs{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;perspective:1400px}
+  .cert{
+    position:relative;display:flex;flex-direction:column;
+    background:linear-gradient(160deg,var(--navy-800),var(--navy-900) 70%);
+    border:1px solid var(--line);transform-style:preserve-3d;
+    transition:transform .5s cubic-bezier(.2,.7,.2,1), border-color .4s, box-shadow .5s;
+  }
+  .cert:hover{border-color:rgba(201,164,92,.55);box-shadow:0 40px 80px -30px rgba(0,0,0,.7)}
+  .cert::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:0;transition:opacity .4s;
+    background:radial-gradient(420px circle at var(--mx,50%) var(--my,50%), rgba(230,204,147,.12), transparent 45%);}
+  .cert:hover::after{opacity:1}
+  .cert-media{position:relative;display:block;width:100%;padding:0;border:0;cursor:zoom-in;overflow:hidden;aspect-ratio:4/3;background:var(--navy-700);transform:translateZ(30px)}
+  .cert-media img{width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.2,.7,.2,1)}
+  .cert:hover .cert-media img{transform:scale(1.06)}
+  .cert-media::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(11,20,36,.85))}
+  .cert-media .count{position:absolute;right:14px;bottom:12px;z-index:2;display:flex;align-items:center;gap:6px;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ivory);background:rgba(7,13,24,.6);padding:5px 10px}
+  .cert-media .count svg{width:14px;height:14px}
+  .cert-body{padding:30px 30px 28px;display:flex;flex-direction:column;flex:1;transform:translateZ(45px)}
+  .cert .tag{font-size:.68rem;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+  .cert h3{font-family:var(--serif);font-weight:600;font-size:1.75rem;line-height:1.15;margin:10px 0 14px}
+  .cert p{color:var(--body-dark);font-size:.93rem;margin:0 0 14px}
+  .cert ul{list-style:none;margin:4px 0 20px;padding:0;display:flex;flex-wrap:wrap;gap:7px}
+  .cert li{font-size:.7rem;padding:5px 10px;border:1px solid rgba(255,255,255,.1);color:#c8cdd8}
+  .cert .meta{margin-top:auto;padding-top:18px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:12px;font-size:.78rem;color:var(--muted)}
+  .cert .meta strong{color:var(--ivory);font-weight:500}
+
+  /* ---------- Timeline ---------- */
+  .timeline{position:relative;max-width:900px;margin-inline:auto}
+  .timeline::before{content:"";position:absolute;left:50%;top:0;bottom:0;width:1px;background:linear-gradient(transparent,var(--gold-dark) 10%,var(--gold-dark) 90%,transparent)}
+  .tl-item{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:70px;margin-bottom:60px}
+  .tl-item:last-child{margin-bottom:0}
+  .tl-item::before{content:"";position:absolute;left:50%;top:10px;width:15px;height:15px;transform:translateX(-50%) rotate(45deg);background:var(--paper);border:1px solid var(--gold-dark);box-shadow:0 0 0 6px var(--paper)}
+  .tl-date{text-align:right;font-family:var(--serif);font-size:1.5rem;font-weight:600;color:var(--gold-dark)}
+  .tl-date small{display:block;font-family:var(--sans);font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:#7b8394;font-weight:400}
+  .tl-body h4{font-family:var(--serif);font-size:1.55rem;font-weight:600;margin:0 0 8px;line-height:1.2;color:var(--navy-900)}
+  .tl-body p{margin:0;color:var(--ink-soft);font-size:.95rem}
+  .tl-item:nth-child(even) .tl-date{order:2;text-align:left}
+  .tl-item:nth-child(even) .tl-body{order:1;text-align:right}
+
+  /* ---------- Áreas / Setores ---------- */
+  .sectors{display:grid;grid-template-columns:repeat(6,1fr);gap:16px}
+  .sector{padding:28px 18px;text-align:center;border:1px solid var(--line);background:var(--navy-900);transition:transform .4s,border-color .4s,background .4s}
+  .sector:hover{transform:translateY(-6px);border-color:var(--gold);background:var(--navy-800)}
+  .sector svg{width:32px;height:32px;color:var(--gold);margin:0 auto 14px}
+  .sector span{display:block;font-size:.86rem;font-weight:500;line-height:1.35}
+
+  /* ---------- Atuação ---------- */
+  .practice{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border-top:1px solid var(--line-light);border-left:1px solid var(--line-light)}
+  .area{padding:40px 38px;border-right:1px solid var(--line-light);border-bottom:1px solid var(--line-light);background:var(--paper);transition:background .4s;position:relative}
+  .area:hover{background:#fff}
+  .area .num{font-family:var(--serif);font-size:.95rem;color:var(--gold-dark);letter-spacing:.2em}
+  .area h3{font-family:var(--serif);font-size:1.75rem;font-weight:600;margin:8px 0 12px;line-height:1.2;color:var(--navy-900)}
+  .area p{margin:0 0 12px;color:var(--ink-soft);font-size:.94rem}
+  .area p:last-child{margin-bottom:0}
+  .area p strong{color:var(--navy-900);font-weight:600}
+  .area::before{content:"";position:absolute;left:0;top:0;width:2px;height:0;background:var(--brand-red);transition:height .5s}
+  .area:hover::before{height:100%}
+
+  /* ---------- Sócios ---------- */
+  .partners{display:grid;grid-template-columns:1fr 1fr;gap:28px;perspective:1400px}
+  .partner{position:relative;display:grid;grid-template-columns:200px 1fr;gap:34px;align-items:start;padding:36px;border:1px solid var(--line);background:var(--navy-900);overflow:hidden;transform-style:preserve-3d;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+  .partner::after{content:"";position:absolute;right:-60px;top:-60px;width:180px;height:180px;border:1px solid var(--line);transform:rotate(45deg)}
+  .partner figure{margin:0;position:relative;width:200px;aspect-ratio:1/1;padding:8px;border:1px solid var(--gold);background:var(--navy-800);overflow:hidden;transform:translateZ(40px)}
+  .partner img{width:100%;height:100%;object-fit:cover;object-position:50% 12%;transition:transform .8s cubic-bezier(.2,.7,.2,1)}
+  .partner:hover img{transform:scale(1.04)}
+  .partner .in{display:inline-flex;align-items:center;gap:8px;margin-top:14px;font-size:.72rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-light);border-bottom:1px solid var(--line);padding-bottom:3px;transition:color .3s,border-color .3s}
+  .partner .in:hover{color:var(--ivory);border-color:var(--gold)}
+  .partner .in svg{width:14px;height:14px}
+  .partner h3{font-family:var(--serif);font-size:1.95rem;font-weight:600;margin:0;line-height:1.1}
+  .partner .role{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:6px 0 16px}
+  .partner ul{margin:0;padding:0;list-style:none;color:var(--body-dark);font-size:.9rem}
+  .partner li{position:relative;padding-left:20px;margin-bottom:8px}
+  .partner li::before{content:"";position:absolute;left:0;top:.75em;width:8px;height:1px;background:var(--gold)}
+
+  /* ---------- Imprensa ---------- */
+  .press-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+  .press[hidden]{display:none}
+  .press-link{display:flex;flex-direction:column;height:100%;background:#fff;border:1px solid var(--line-light);transition:transform .5s cubic-bezier(.2,.7,.2,1),box-shadow .5s,border-color .4s}
+  .press-link:hover{transform:translateY(-8px);box-shadow:0 30px 50px -25px rgba(7,13,24,.35);border-color:var(--gold)}
+  .press-media{position:relative;aspect-ratio:1/1;overflow:hidden;background:var(--navy-800)}
+  .press-media img{width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.2,.7,.2,1)}
+  .press-link:hover .press-media img{transform:scale(1.05)}
+  .press-body{display:flex;flex-direction:column;flex:1;padding:24px 26px 26px}
+  .press time{font-size:.7rem;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-dark)}
+  .press h3{font-family:var(--serif);font-size:1.45rem;font-weight:600;line-height:1.2;color:var(--navy-900);margin:8px 0 10px}
+  .press p{margin:0 0 18px;color:var(--ink-soft);font-size:.9rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .press-more{margin-top:auto;display:inline-flex;align-items:center;gap:6px;font-size:.72rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--brand-blue)}
+  .press-more svg{width:14px;height:14px;transition:transform .3s}
+  .press-link:hover .press-more svg{transform:translate(3px,-3px)}
+  .press-actions{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:50px}
+  .btn.outline{background:transparent;color:var(--navy-900);border-color:var(--navy-900)}
+  .btn.outline:hover{background:var(--navy-900);color:var(--ivory)}
+
+  /* ---------- Contato ---------- */
+  .contact{position:relative;overflow:hidden;background:linear-gradient(135deg,var(--navy-800),var(--navy-950))}
+  .contact::before{content:"§";position:absolute;right:2%;top:40%;transform:translateY(-50%);font-family:var(--serif);font-size:36rem;line-height:1;color:rgba(201,164,92,.045);pointer-events:none}
+  .contact-grid{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
+  .contact h2{font-family:var(--serif);font-weight:500;font-size:clamp(2.1rem,4.2vw,3.4rem);line-height:1.08;margin:16px 0 16px}
+  .contact h2 em{color:var(--gold-light)}
+  .contact .intro{color:var(--body-dark);margin:0 0 30px}
+  .contact-list{list-style:none;margin:0 0 30px;padding:0;border:1px solid var(--line);background:rgba(7,13,24,.5)}
+  .contact-list li{display:flex;gap:18px;padding:20px 24px;border-bottom:1px solid var(--line)}
+  .contact-list li:last-child{border-bottom:0}
+  .contact-list svg{flex:none;width:22px;height:22px;color:var(--gold);margin-top:3px}
+  .contact-list small{display:block;font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+  .contact-list a,.contact-list address{font-style:normal;color:var(--ivory);font-size:.96rem}
+  .contact-list a:hover{color:var(--gold-light)}
+  .map-card{border:1px solid var(--line);background:var(--navy-900);box-shadow:var(--shadow)}
+  .map{position:relative;width:100%;aspect-ratio:16/10;background:var(--navy-800);overflow:hidden}
+  .map iframe{position:absolute;inset:0;width:100%;height:100%;border:0;display:block;filter:saturate(.85) contrast(1.05);transition:filter .5s}
+  .map:hover iframe{filter:none}
+  .map-actions{display:flex;flex-wrap:wrap;gap:10px;padding:16px}
+  .map-actions .btn{flex:1 1 180px;justify-content:center;padding:12px 16px}
+  .map-chip{position:absolute;left:14px;bottom:14px;display:flex;align-items:center;gap:10px;padding:9px 14px;background:rgba(7,13,24,.88);backdrop-filter:blur(6px);border:1px solid var(--gold);color:var(--ivory);font-size:.74rem;letter-spacing:.06em;pointer-events:none}
+  .map-chip .dot{width:9px;height:9px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 0 rgba(201,164,92,.7);animation:ping 2s infinite}
+  @keyframes ping{0%{box-shadow:0 0 0 0 rgba(201,164,92,.7)}100%{box-shadow:0 0 0 12px rgba(201,164,92,0)}}
+  @media (prefers-reduced-motion:reduce){.map-chip .dot{animation:none}}
+  form.contact-form{background:var(--paper);color:var(--ink);padding:42px;box-shadow:var(--shadow)}
+  form.contact-form h3{font-family:var(--serif);font-size:1.8rem;font-weight:600;margin:0 0 4px;color:var(--navy-900)}
+  form.contact-form > p{margin:0 0 26px;color:var(--ink-soft);font-size:.92rem}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .field{margin-bottom:18px}
+  .field label{display:block;font-size:.7rem;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:8px}
+  .field label span{color:var(--brand-red)}
+  .field input,.field textarea{width:100%;font:inherit;font-size:.95rem;color:var(--ink);background:#fff;border:1px solid var(--line-light);padding:13px 14px;transition:border-color .3s, box-shadow .3s}
+  .field textarea{min-height:130px;resize:vertical}
+  .field input:focus,.field textarea:focus{outline:none;border-color:var(--gold-dark);box-shadow:0 0 0 3px rgba(201,164,92,.2)}
+  .field input:user-invalid,.field textarea:user-invalid{border-color:var(--brand-red)}
+  .form-note{font-size:.78rem;color:var(--muted);margin:14px 0 0}
+  .form-status{font-size:.86rem;margin:12px 0 0;color:var(--navy-700)}
+
+  /* ---------- Footer ---------- */
+  footer{background:var(--paper);color:var(--ink-soft);padding:50px 0 40px;font-size:.84rem}
+  .foot{display:grid;grid-template-columns:auto 1fr auto;gap:40px;align-items:center}
+  .foot img{height:60px;width:auto}
+  .foot-info{line-height:1.6}
+  .foot-info strong{color:var(--navy-900);font-weight:600}
+  .social{display:flex;gap:10px}
+  .social a{width:42px;height:42px;display:grid;place-items:center;border:1px solid var(--line-light);color:var(--navy-900);transition:border-color .3s,color .3s,transform .3s,background .3s}
+  .social a:hover{border-color:var(--navy-900);background:var(--navy-900);color:var(--ivory);transform:translateY(-3px)}
+  .social svg{width:17px;height:17px}
+  .social-title{font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+  .social-contact{margin-bottom:30px}
+  .social-contact a{width:48px;height:48px;border-color:var(--line);color:var(--gold-light)}
+  .social-contact a:hover{background:var(--gold);border-color:var(--gold);color:var(--navy-950)}
+  .social-contact svg{width:20px;height:20px}
+  .foot-bottom{margin-top:34px;padding-top:22px;border-top:1px solid var(--line-light);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:.78rem;color:var(--muted)}
+
+  .wa-float{position:fixed;right:20px;bottom:20px;z-index:60;width:56px;height:56px;border-radius:50%;display:grid;place-items:center;background:#25d366;color:#fff;box-shadow:0 14px 30px -8px rgba(0,0,0,.5);transition:transform .3s}
+  .wa-float:hover{transform:scale(1.08)}
+  .wa-float svg{width:28px;height:28px}
+
+  /* ---------- Lightbox ---------- */
+  dialog.lightbox{border:0;padding:0;background:transparent;max-width:min(92vw,1100px);max-height:92vh;overflow:visible}
+  dialog.lightbox::backdrop{background:rgba(7,13,24,.92);backdrop-filter:blur(4px)}
+  .lb-img{max-width:min(92vw,1100px);max-height:80vh;width:auto;margin:0 auto;box-shadow:var(--shadow)}
+  .lb-cap{color:var(--ivory);text-align:center;font-size:.9rem;margin-top:14px}
+  .lb-btn{position:fixed;top:50%;transform:translateY(-50%);width:50px;height:50px;border:1px solid var(--line);background:rgba(7,13,24,.7);color:var(--ivory);cursor:pointer;display:grid;place-items:center}
+  .lb-btn:hover{border-color:var(--gold);color:var(--gold)}
+  .lb-btn svg{width:20px;height:20px}
+  .lb-prev{left:18px}.lb-next{right:18px}
+  .lb-close{top:22px;right:18px;transform:none}
+
+  /* ---------- Reveal ---------- */
+  .reveal{opacity:0;transform:translateY(40px);transition:opacity 1s cubic-bezier(.2,.7,.2,1),transform 1s cubic-bezier(.2,.7,.2,1)}
+  .reveal.in{opacity:1;transform:none}
+  .d1{transition-delay:.12s}.d2{transition-delay:.24s}.d3{transition-delay:.36s}
+
+  /* ---------- Responsivo ---------- */
+  @media (max-width:1280px){
+    .menu{gap:18px}
+    .menu a{font-size:.68rem;letter-spacing:.12em}
+  }
+  @media (max-width:1024px){
+    .certs{grid-template-columns:1fr 1fr}
+    .press-grid{grid-template-columns:1fr 1fr}
+    .partners{grid-template-columns:1fr}
+    .sectors{grid-template-columns:repeat(3,1fr)}
+    .office{gap:60px}
+  }
+  @media (max-width:1100px){
+    .menu,.nav .btn{display:none}
+    .burger{display:block}
+    .menu.open{display:flex;position:fixed;inset:var(--header-h,84px) 0 auto 0;flex-direction:column;gap:0;background:var(--paper);border-bottom:1px solid var(--line-light);padding:8px 16px 18px;box-shadow:0 20px 30px -20px rgba(0,0,0,.4);max-height:calc(100vh - var(--header-h,84px));overflow-y:auto}
+    .menu.open a{display:block;padding:14px 0;border-bottom:1px solid var(--line-light);font-size:.78rem;letter-spacing:.15em}
+    .burger[aria-expanded="true"] span:nth-child(1){transform:translateY(5.5px) rotate(45deg)}
+    .burger[aria-expanded="true"] span:nth-child(2){opacity:0}
+    .burger[aria-expanded="true"] span:nth-child(3){transform:translateY(-5.5px) rotate(-45deg)}
+  }
+  @media (max-width:960px){
+    .section-head,.contact-grid,.office{grid-template-columns:1fr;gap:28px}
+    .office{gap:70px}
+    .office-media .frame::before{inset:-12px 12px 12px -12px}
+    .office-badge{right:12px;bottom:-22px}
+    .pillars-grid{grid-template-columns:1fr}
+    .pillar{border-right:0;border-bottom:1px solid var(--line)}
+    .pillar:last-child{border-bottom:0}
+    .timeline::before{left:7px}
+    .tl-item{grid-template-columns:1fr;gap:6px;padding-left:40px}
+    .tl-item::before{left:7px}
+    .tl-item .tl-date,.tl-item:nth-child(even) .tl-date{order:0;text-align:left}
+    .tl-item:nth-child(even) .tl-body{order:1;text-align:left}
+    .foot{grid-template-columns:1fr;gap:24px;text-align:left}
+    section{padding:96px 0}
+  }
+  @media (max-width:700px){
+    .practice{grid-template-columns:1fr}
+  }
+  /* tablet: 3º card de certificação ocupa a linha inteira, com foto ao lado */
+  @media (min-width:641px) and (max-width:1024px){
+    .cert:last-child{grid-column:1/-1;flex-direction:row}
+    .cert:last-child .cert-media{flex:0 0 46%;aspect-ratio:auto;min-height:100%}
+  }
+  @media (max-width:640px){
+    .map{aspect-ratio:auto;height:320px}
+    .map-chip{display:none}
+    .map-actions .btn{flex:1 1 100%}
+    .nav{height:70px}
+    .brand img{height:40px}
+    .certs{grid-template-columns:1fr}
+    .press-grid{grid-template-columns:1fr;gap:20px}
+    .press-actions .btn{width:100%;justify-content:center}
+    .sectors{grid-template-columns:1fr 1fr}
+    .partner{grid-template-columns:1fr;padding:28px}
+    .partner figure{width:180px}
+    .feats,.row{grid-template-columns:1fr}
+    .area{padding:32px 24px}
+    form.contact-form{padding:28px 22px}
+    .office-badge{right:-6px;bottom:-24px;padding:18px 22px}
+    .office-badge b{font-size:2.3rem}
+    .hero-inner{padding-top:120px}
+    .lb-btn{width:42px;height:42px}
+    .lb-prev,.lb-next{top:auto;bottom:18px;transform:none}
+  }
+  /* profundidade 3D só onde há mouse; em toque/telas menores evita deslocar o conteúdo */
+  @media (hover:none), (max-width:1024px){
+    .certs,.partners,.office-media{perspective:none}
+    .cert,.partner,.office-media .frame{transform-style:flat}
+    .cert-media,.cert-body,.partner figure,.office-badge,.office-media .frame::before{transform:none}
+  }
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto}
+    .reveal{opacity:1;transform:none;transition:none}
+    .scroll-cue i{animation:none}
+    .cert,.partner,.office-media .frame{transition:none}
+  }
+</style>
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="site" id="topo">
+  <div class="container nav">
+    <a class="brand" href="#topo" aria-label="Pelegrinelli e Padoan Advogados, voltar ao início">
+      <img src="assets/logo-vivo.png" alt="Pelegrinelli & Padoan Advogados" width="1756" height="504">
+    </a>
+    <nav aria-label="Principal">
+      <ul class="menu" id="menu">
+        <li><a href="#escritorio">Escritório</a></li>
+        <li><a href="#certificacoes">Prêmios e Certificações</a></li>
+        <li><a href="#areas">Áreas</a></li>
+        <li><a href="#atuacao">Atuação</a></li>
+        <li><a href="#socios">Sócios</a></li>
+        <li><a href="#imprensa">Imprensa</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <a class="btn navy" href="#contato">Fale conosco</a>
+    <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="conteudo">
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="hero-title" style="padding:0">
+    <canvas id="scene" aria-hidden="true"></canvas>
+    <div class="container hero-inner">
+      <span class="eyebrow reveal">Pelegrinelli e Padoan Sociedade de Advogados</span>
+      <h1 id="hero-title" class="reveal d1">Tomada de decisões jurídicas de forma <em>inteligente.</em></h1>
+      <p class="lead reveal d2">A inteligência jurídica consiste em um trabalho contínuo e dinâmico que permite a coleta e análise de dados em tempo real para a tomada de decisões jurídicas e estratégicas de forma inteligente.</p>
+      <div class="ctas reveal d3">
+        <a class="btn" href="#certificacoes">Prêmios e certificações
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn ghost" href="#contato">Entre em contato</a>
+      </div>
+    </div>
+    <div class="scroll-cue" aria-hidden="true">Role<i></i></div>
+  </section>
+
+  <!-- PILARES -->
+  <div class="pillars">
+    <div class="container">
+      <div class="pillars-grid reveal">
+        <div class="pillar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
+          <h3>Atuação Nacional</h3>
+          <p>Atendemos e levamos para todo o país a tecnologia e qualidade de nossos serviços jurídicos voltados exclusivamente para as empresas e empresários.</p>
+        </div>
+        <div class="pillar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5L2 9Z"/><path d="M6 11v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5"/></svg>
+          <h3>Especialização</h3>
+          <p>Time de profissionais com alta qualidade técnica que garante o melhor resultado e maior agilidade de informação.</p>
+        </div>
+        <div class="pillar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          <h3>Atendimento Full-Time</h3>
+          <p>Assessoria ilimitada e em tempo integral, sem timesheets.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ESCRITÓRIO -->
+  <section id="escritorio" class="light" aria-labelledby="esc-title" style="margin-top:-70px;padding-top:200px">
+    <div class="container office">
+      <div class="office-media reveal">
+        <div class="frame" data-tilt="6">
+          <img src="assets/juridicas.jpg" alt="Aperto de mãos entre advogado e cliente durante reunião" width="1024" height="683" loading="lazy">
+          <div class="office-badge"><b>30+</b><span>anos de experiência</span></div>
+        </div>
+      </div>
+      <div class="office-text">
+        <span class="eyebrow reveal">O escritório</span>
+        <h2 id="esc-title" class="reveal d1">Inteligência jurídica para <em>resultados efetivos</em></h2>
+        <p class="reveal d2">Nosso escritório é totalmente informatizado, o que representa economia de tempo, rapidez e aplicabilidade no tratamento e na fluidez de nossos processos.</p>
+        <p class="reveal d2">Contamos também com seguro de responsabilidade civil, para, em caso de algum erro ou acidente, garantir a total segurança de nossos clientes.</p>
+        <div class="feats reveal d3">
+          <div class="feat">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"/><path d="M8 20h8M12 16v4"/></svg>
+            <div><strong>100% informatizado</strong><span>Agilidade e fluidez nos processos</span></div>
+          </div>
+          <div class="feat">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6l8-3Z"/><path d="M9 12l2 2 4-4"/></svg>
+            <div><strong>Seguro de responsabilidade civil</strong><span>Segurança total aos clientes</span></div>
+          </div>
+        </div>
+        <blockquote class="reveal d3">Excelência e qualidade para resultados efetivos são nossa busca incessante!</blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICAÇÕES -->
+  <section id="certificacoes" aria-labelledby="cert-title">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow reveal">Prêmios e Certificações</span>
+          <h2 id="cert-title" class="reveal d1">Reconhecimento e formação <em>de excelência</em></h2>
+        </div>
+        <p class="reveal d2">Prêmios e especializações no Brasil e no exterior que reforçam o compromisso do escritório com a qualidade técnica e a atualização constante.</p>
+      </div>
+
+      <div class="certs">
+        <article class="cert reveal" data-tilt="10">
+          <button class="cert-media" type="button" data-gallery="premio" aria-label="Ampliar fotos do Prêmio Líder Empresarial">
+            <img src="assets/premio-lider.jpg" alt="Dr. Dennis Pelegrinelli e Dra. Claudia Padoan recebem o Prêmio Líder Empresarial Guarulhos 2019" width="960" height="960" loading="lazy">
+            <span class="count"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4M11 8v6M8 11h6"/></svg>Ampliar</span>
+          </button>
+          <div class="cert-body">
+            <span class="tag">Prêmio</span>
+            <h3>Prêmio Líder Empresarial</h3>
+            <p>Inovação, sustentabilidade e compromisso com os clientes foi o que levou o escritório de advocacia Pelegrinelli e Padoan, representado pelos sócios Dr. Dennis Pelegrinelli e Dra. Claudia Padoan, a receber o Prêmio Líder Empresarial Guarulhos 2019, que aconteceu na noite do dia 10 de dezembro no Esporte Clube Vila Galvão, em Guarulhos.</p>
+            <ul><li>Inovação</li><li>Sustentabilidade</li><li>Compromisso com os clientes</li></ul>
+            <div class="meta"><span><strong>Esporte Clube Vila Galvão</strong> · Guarulhos/SP</span><span>10/12/2019</span></div>
+          </div>
+        </article>
+
+        <article class="cert reveal d1" data-tilt="10">
+          <button class="cert-media" type="button" data-gallery="llm" aria-label="Ampliar fotos da conclusão do LLM">
+            <img src="assets/llm-1.jpg" alt="Dr. Dennis Pelegrinelli com o certificado na Loyola University Chicago" width="768" height="1024" loading="lazy" style="object-position:50% 40%">
+            <span class="count"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 8"/></svg>2 fotos</span>
+          </button>
+          <div class="cert-body">
+            <span class="tag">LLM · Loyola University Chicago</span>
+            <h3>Conclusão LLM do Dr. Dennis Pelegrinelli</h3>
+            <p>Conclusão do Legal Master (LLM) do Dr. Dennis Pelegrinelli na Loyola University Chicago School of Law, tornando-o especialista em diversas áreas do direito empresarial. Foram discutidos temas relevantes como:</p>
+            <ul>
+              <li>Smart Contracts and Artificial Intelligence</li><li>Technology</li><li>Cyber Compliance &amp; Data Processing</li>
+              <li>International Arbitration</li><li>Legal Writing</li><li>International Tax Law (Tax Planning)</li>
+              <li>Professional Development</li><li>The Role of Law in the Networked Society: the Internet of Things</li>
+            </ul>
+            <div class="meta"><span><strong>Chicago</strong> · EUA</span><span>30/08/2019</span></div>
+          </div>
+        </article>
+
+        <article class="cert reveal d2" data-tilt="10">
+          <button class="cert-media" type="button" data-gallery="insper" aria-label="Ampliar fotos da Educação Executiva no Insper">
+            <img src="assets/insper-2.jpg" alt="Turma do curso de Direito do Trabalho no Insper" width="1024" height="742" loading="lazy">
+            <span class="count"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 8"/></svg>2 fotos</span>
+          </button>
+          <div class="cert-body">
+            <span class="tag">Educação Executiva · Insper</span>
+            <h3>Educação Executiva no Insper</h3>
+            <p>A Dra. Claudia Padoan concluiu o curso “Direito do Trabalho: Uma Visão Multidisciplinar e Estratégica” do INSPER/SP.</p>
+            <p>Com essa nova especialização, a sócia do escritório Pelegrinelli e Padoan obteve capacitação profunda dos conhecimentos jurídicos na área trabalhista, sob a ótica empresarial, que permitiu a habilitação para as melhores práticas de mercado, seus desafios e seus efeitos práticos. Além disso, desenvolver soluções adequadas, eficientes, legalmente sustentáveis e que gerem percepção de confiança não só interna, mas também com todos os demais stakeholders das organizações.</p>
+            <div class="meta"><span><strong>Insper</strong> · São Paulo/SP</span><span>Maio/2019</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRAJETÓRIA -->
+  <section id="trajetoria" class="light" aria-labelledby="tl-title">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow reveal">Trajetória</span>
+          <h2 id="tl-title" class="reveal d1">2019, um ano de <em>marcos</em></h2>
+        </div>
+        <p class="reveal d2">Formação executiva, especialização internacional e reconhecimento empresarial em um mesmo ano.</p>
+      </div>
+      <div class="timeline">
+        <div class="tl-item reveal">
+          <div class="tl-date">Maio 2019<small>Insper · São Paulo</small></div>
+          <div class="tl-body"><h4>Educação Executiva</h4><p>Dra. Claudia Padoan conclui “Direito do Trabalho: Uma Visão Multidisciplinar e Estratégica”.</p></div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-date">Agosto 2019<small>Loyola · Chicago</small></div>
+          <div class="tl-body"><h4>Legal Master (LLM)</h4><p>Dr. Dennis Pelegrinelli conclui o LLM na Loyola University Chicago School of Law.</p></div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-date">Dezembro 2019<small>Guarulhos · SP</small></div>
+          <div class="tl-body"><h4>Prêmio Líder Empresarial</h4><p>O escritório é reconhecido por inovação, sustentabilidade e compromisso com os clientes.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ÁREAS (SETORES) -->
+  <section id="areas" aria-labelledby="areas-title">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow reveal">Áreas</span>
+          <h2 id="areas-title" class="reveal d1">Setores que <em>atendemos</em></h2>
+        </div>
+        <p class="reveal d2">Soluções jurídicas para diferentes segmentos, do pequeno empreendedor aos grandes grupos empresariais.</p>
+      </div>
+      <div class="sectors">
+        <div class="sector reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M3 9l2-5h14l2 5M3 9v11h18V9M3 9h18M9 20v-6h6v6"/></svg><span>Comércio</span></div>
+        <div class="sector reveal d1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="1"/><path d="M8 7V4h8v3M3 13h18"/></svg><span>Empresas de Serviços</span></div>
+        <div class="sector reveal d2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.3"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M15 14.5c3 0 6 1.8 6 5.5"/></svg><span>Empresários e grupos familiares</span></div>
+        <div class="sector reveal d3"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M3 20V10l6 4V10l6 4V6h6v14H3Z"/></svg><span>Indústrias</span></div>
+        <div class="sector reveal d2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M5 15c-1.5 1.5-2 5-2 5s3.5-.5 5-2M9 11l4 4M14.5 4.5C18 3 21 3 21 3s0 3-1.5 6.5L13 16l-5-5 6.5-6.5Z"/></svg><span>Startup e E-commerce</span></div>
+        <div class="sector reveal d3"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 6h12v10H2zM14 9h4l4 4v3h-8"/><circle cx="6" cy="17.5" r="1.8"/><circle cx="17" cy="17.5" r="1.8"/></svg><span>Transportadoras</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ATUAÇÃO -->
+  <section id="atuacao" class="light" aria-labelledby="atu-title">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow reveal">Atuação</span>
+          <h2 id="atu-title" class="reveal d1">Áreas de <em>atuação</em></h2>
+        </div>
+        <p class="reveal d2">Equipes especializadas em atuação preventiva e contenciosa, para pessoas físicas e jurídicas.</p>
+      </div>
+      <div class="practice">
+        <article class="area reveal">
+          <span class="num">01</span><h3>Cível</h3>
+          <p>A equipe de Direito Cível é composta por profissionais capacitados para atuar tanto para pessoas físicas como jurídicas, nacionais ou estrangeiras. Com vasto conhecimento em litígios judiciais, o conhecimento da equipe abrange a interpretação de normas e contratos; personalidade e capacidade civil para associações e fundações, atividades empresariais, validade de negócios jurídicos, entre outros.</p>
+        </article>
+        <article class="area reveal d1">
+          <span class="num">02</span><h3>Empresarial</h3>
+          <p>Estamos aptos a atender micro, pequenas, médias e grandes empresas que necessitam terceirizar seu departamento jurídico. Nosso núcleo atua como uma ferramenta de controle, que agrega valores permitindo o crescimento sustentável da empresa com toda a segurança jurídica, minimizando riscos e atuando de forma preventiva através da elaboração de contratos com fornecedores, prestadores de serviços, entre outros.</p>
+          <p><strong>Societário:</strong> capacitação para elaboração de contratos sociais, acordo entre sócios, dissolução societária (amigável e conflituosa), M&amp;A, entre outros.</p>
+          <p><strong>Tributário:</strong> os advogados são capacitados para a gestão de passivo tributário e para realizar defesas administrativas nas esferas municipal, estadual e federal. Acompanhamento em fiscalizações. Atuação no contencioso tributário em todas as instâncias.</p>
+        </article>
+        <article class="area reveal">
+          <span class="num">03</span><h3>Criminal</h3>
+          <p>Possuímos profundo conhecimento em direito penal empresarial, com atuação cirúrgica, voltada ao atendimento das empresas e de seus representantes em questões relacionadas a investigações e processos criminais. A expertise de nossos profissionais inclui auxílio em investigações, auditoria, assistência legal e ações preventivas.</p>
+        </article>
+        <article class="area reveal d1">
+          <span class="num">04</span><h3>Imobiliário</h3>
+          <p>Possuímos uma equipe com vasta experiência em imobiliário, com atuação em negociações, compra e venda de imóveis, incorporações, loteamentos, garantias e administração de imóveis, além de questões de urbanismo, servidão e imóveis rurais.</p>
+        </article>
+        <article class="area reveal">
+          <span class="num">05</span><h3>Societário</h3>
+          <p>Conhecimento em estabelecer acordo entre sócios ou mesmo vender e comprar sociedades.</p>
+        </article>
+        <article class="area reveal d1">
+          <span class="num">06</span><h3>Trabalhista</h3>
+          <p>Possuímos uma equipe especializada em assessoria preventiva, diligência legal, contencioso administrativo e judicial da área trabalhista, incluindo assuntos relacionados à segurança ocupacional, acidentes de trabalho e doenças ocupacionais.</p>
+          <p>Com larga experiência em consultivo e preventivo, o escritório está capacitado a atender demandas em consultoria e trabalho preventivo, negociações e representação em ações indenizatórias e reclamações trabalhistas.</p>
+        </article>
+        <article class="area reveal">
+          <span class="num">07</span><h3>Transportes</h3>
+          <p>Com mais de 30 anos de experiência, atuamos nas demandas judiciais de empresas de transporte urbano e rodoviário de passageiros, bem como de transportadoras de cargas, em diversas cidades brasileiras. O escritório tem desenvolvido um ótimo resultado nas ações judiciais de consumidores, terceiros e do poder concedente.</p>
+          <p>Assessoramos ainda de forma preventiva as empresas, capacitando e instruindo motoristas, cobradores, fiscais e inspetores através de palestras e comitês de acidentes.</p>
+        </article>
+        <article class="area reveal d1">
+          <span class="num">08</span><h3>Tributário</h3>
+          <p>Os advogados são capacitados para a gestão de passivo tributário e para realizar defesas administrativas nas esferas municipal, estadual e federal. Acompanhamento em fiscalizações. Atuação no contencioso tributário em todas as instâncias.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SÓCIOS -->
+  <section id="socios" aria-labelledby="socios-title">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow reveal">Sócios</span>
+          <h2 id="socios-title" class="reveal d1">Quem conduz a <em>sua causa</em></h2>
+        </div>
+        <p class="reveal d2">Formação sólida, atuação institucional na OAB/SP e participação ativa como palestrantes e autores de diversos artigos jurídicos.</p>
+      </div>
+      <div class="partners">
+        <article class="partner reveal" data-tilt="5">
+          <figure><img src="assets/dennis.png" alt="Retrato de Dennis Pelegrinelli" width="315" height="381" loading="lazy"></figure>
+          <div>
+            <h3>Dennis Pelegrinelli</h3>
+            <div class="role">Sócio</div>
+            <ul>
+              <li>Pós-graduado em Direito Imobiliário – IPEC/SP</li>
+              <li>LLM em Direito Empresarial – IBMEC/SP</li>
+              <li>Pós-graduado pela L. Quinlan School of Business – Chicago/EUA</li>
+              <li>Membro do Instituto dos Juristas Cristãos do Brasil</li>
+              <li>Palestrante e autor de diversos artigos jurídicos</li>
+              <li>Ex-assessor da presidência da 57ª Subseção da OAB/SP</li>
+            </ul>
+            <a class="in" href="https://www.linkedin.com/in/dennis-pelegrinelli-146420123/" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.5 3.5a2 2 0 1 1 0 4 2 2 0 0 1 0-4ZM3 9h3v12H3V9Zm5 0h2.9v1.7c.4-.8 1.4-1.9 3.4-1.9 3.4 0 4.2 2.2 4.2 5.2V21h-3v-6.2c0-1.5 0-3.3-2-3.3s-2.4 1.6-2.4 3.2V21H8V9Z"/></svg>LinkedIn de Dennis</a>
+          </div>
+        </article>
+        <article class="partner reveal d1" data-tilt="5">
+          <figure><img src="assets/claudia.png" alt="Retrato de Claudia Padoan" width="315" height="381" loading="lazy"></figure>
+          <div>
+            <h3>Claudia Padoan</h3>
+            <div class="role">Sócia</div>
+            <ul>
+              <li>Pós-graduada em Direito Trabalhista</li>
+              <li>Especialização pela PUC/COGEAE sobre a Reforma Trabalhista</li>
+              <li>Especialização em Direito do Trabalho pelo INSPER</li>
+              <li>Palestrante e autora de diversos artigos jurídicos</li>
+              <li>Ex-presidente da Comissão de Ação Social da 57ª Subseção da OAB/SP</li>
+            </ul>
+            <a class="in" href="https://www.linkedin.com/in/claudia-padoan-3a8185107/" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.5 3.5a2 2 0 1 1 0 4 2 2 0 0 1 0-4ZM3 9h3v12H3V9Zm5 0h2.9v1.7c.4-.8 1.4-1.9 3.4-1.9 3.4 0 4.2 2.2 4.2 5.2V21h-3v-6.2c0-1.5 0-3.3-2-3.3s-2.4 1.6-2.4 3.2V21H8V9Z"/></svg>LinkedIn de Claudia</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMPRENSA -->
+  <section id="imprensa" class="light" aria-labelledby="imp-title">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow reveal">Imprensa</span>
+          <h2 id="imp-title" class="reveal d1">Notícias e <em>publicações</em></h2>
+        </div>
+        <p class="reveal d2">Decisões dos tribunais, novidades legislativas e a participação do escritório em eventos e instituições. São 310 publicações para manter você informado.</p>
+      </div>
+      <div class="press-grid" id="press-grid">
+        <article class="press reveal" data-more>
+          <a class="press-link" href="imprensa/morte-de-devedor-antes-da-citacao.html">
+            <div class="press-media"><img src="assets/imprensa/media/2026/09/02-300-x-300-site.jpg" alt="" width="300" height="300" loading="lazy"></div>
+            <div class="press-body">
+              <time datetime="2026-09-25">25 set 2026</time>
+              <h3>Morte de devedor antes da citação</h3>
+              <p>Morte de devedor antes da citação impede redirecionamento da execução fiscal ao espólio, confirma STJ em repetitivo Sob…</p>
+              <span class="press-more">Ler matéria <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+            </div>
+          </a>
+        </article>
+        <article class="press reveal" data-more>
+          <a class="press-link" href="imprensa/justica-democracia-e-laicidade-em-debate.html">
+            <div class="press-media"><img src="assets/imprensa/media/2026/08/02-300-x-300-site.jpg" alt="" width="300" height="300" loading="lazy"></div>
+            <div class="press-body">
+              <time datetime="2026-08-25">25 ago 2026</time>
+              <h3>Justiça, Democracia e Laicidade em Debate</h3>
+              <p>⚖️ Nesta sexta-feira, dia 21/08, o V Congresso ANAMEL – Justiça Servidora reuniu importantes nomes do meio jurídico no…</p>
+              <span class="press-more">Ler matéria <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+            </div>
+          </a>
+        </article>
+        <article class="press reveal" data-more>
+          <a class="press-link" href="imprensa/divisao-desigual-entre-herdeiros.html">
+            <div class="press-media"><img src="assets/imprensa/media/2026/07/02-300-x-300-site-2.jpg" alt="" width="300" height="300" loading="lazy"></div>
+            <div class="press-body">
+              <time datetime="2026-07-07">07 jul 2026</time>
+              <h3>Divisão desigual entre herdeiros</h3>
+              <p>É possível partilha amigável com divisão desigual dos quinhões hereditários, decide Terceira Turma A Terceira Turma do Superior…</p>
+              <span class="press-more">Ler matéria <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+            </div>
+          </a>
+        </article>
+        <article class="press reveal" data-more>
+          <a class="press-link" href="imprensa/o-stj-definiu-regras-para-a-concessao-da-gratuidade-de-justica-a-empresas.html">
+            <div class="press-media"><img src="assets/imprensa/media/2026/07/02-300-x-300-site-1.jpg" alt="" width="300" height="300" loading="lazy"></div>
+            <div class="press-body">
+              <time datetime="2026-07-03">03 jul 2026</time>
+              <h3>O STJ definiu regras para a concessão da gratuidade de justiça a empresas</h3>
+              <p>Primeiro repetitivo julgado em sessão totalmente virtual define requisitos para justiça gratuita a pessoas jurídicas Em julgamento inédito…</p>
+              <span class="press-more">Ler matéria <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+            </div>
+          </a>
+        </article>
+        <article class="press reveal" data-more>
+          <a class="press-link" href="imprensa/claudia-padoan-fortalece-a-defesa-dos-direitos-das-mulheres-no-alto-tiete.html">
+            <div class="press-media"><img src="assets/imprensa/media/2026/06/01-300-x-300-site-2025.jpg" alt="" width="300" height="300" loading="lazy"></div>
+            <div class="press-body">
+              <time datetime="2026-06-26">26 jun 2026</time>
+              <h3>Claudia Padoan fortalece a defesa dos direitos das mulheres no Alto Tietê</h3>
+              <p>➡️ A conselheira Claudia Padoan, integrante da Mesa Diretora do Colegiado Intermunicipal dos Conselhos de Direitos das Mulheres do…</p>
+              <span class="press-more">Ler matéria <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+            </div>
+          </a>
+        </article>
+        <article class="press reveal" data-more>
+          <a class="press-link" href="imprensa/uso-indevido-de-cpf-na-99-resulta-em-condenacao.html">
+            <div class="press-media"><img src="assets/imprensa/media/2026/06/02-300-x-300-site-1.jpg" alt="" width="300" height="300" loading="lazy"></div>
+            <div class="press-body">
+              <time datetime="2026-06-17">17 jun 2026</time>
+              <h3>Uso indevido de CPF na 99 resulta em condenação</h3>
+              <p>99 indenizará homem que teve CPF utilizado em cadastro como motorista da plataforma Dados pessoais foram utilizados indevidamente…</p>
+              <span class="press-more">Ler matéria <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+            </div>
+          </a>
+        </article>
+        <article class="press reveal" hidden data-more>
+          <a class="press-link" href="imprensa/estelionato-contra-idosa.html">
+            <div class="press-media"><img src="assets/imprensa/media/2026/06/02-300-x-300-site.jpg" alt="" width="300" height="300" loading="lazy"></div>
+            <div class="press-body">
+              <time datetime="2026-06-16">16 jun 2026</time>
+              <h3>Estelionato contra idosa</h3>
+              <p>Mulher é condenada por estelionato praticado contra idosa Prejuízo de cerca de R$ 15 mil. A 3ª Câmara…</p>
+              <span class="press-more">Ler matéria <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+            </div>
+          </a>
+        </article>
+        <article class="press reveal" hidden data-more>
+          <a class="press-link" href="imprensa/seguradora-indenizara-por-imovel-com-falhas-estruturais.html">
+            <div class="press-media"><img src="assets/imprensa/media/2026/04/02-300-x-300-site.jpg" alt="" width="300" height="300" loading="lazy"></div>
+            <div class="press-body">
+              <time datetime="2026-04-23">23 abr 2026</time>
+              <h3>Seguradora indenizará por imóvel com falhas estruturais</h3>
+              <p>Danos por fatores externos e risco de desmoronamento. A 1ª Câmara de Direito Privado do Tribunal de…</p>
+              <span class="press-more">Ler matéria <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+            </div>
+          </a>
+        </article>
+        <article class="press reveal" hidden data-more>
+          <a class="press-link" href="imprensa/negado-acesso.html">
+            <div class="press-media"><img src="assets/imprensa/media/2026/03/02-300-x-300-site-2.jpg" alt="" width="300" height="300" loading="lazy"></div>
+            <div class="press-body">
+              <time datetime="2026-03-30">30 mar 2026</time>
+              <h3>Negado Acesso</h3>
+              <p>Negado acesso de mãe a conta em rede social de filho falecido Proteção do direito à privacidade…</p>
+              <span class="press-more">Ler matéria <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+            </div>
+          </a>
+        </article>
+        <article class="press reveal" hidden data-more>
+          <a class="press-link" href="imprensa/fianca-em-contrato-de-aluguel-nao-exclui-direito-do-locador-ao-penhor-legal.html">
+            <div class="press-media"><img src="assets/imprensa/media/2026/03/02-300-x-300-site-1.jpg" alt="" width="300" height="300" loading="lazy"></div>
+            <div class="press-body">
+              <time datetime="2026-03-24">24 mar 2026</time>
+              <h3>Fiança em contrato de aluguel não exclui direito do locador ao penhor legal</h3>
+              <p>A Terceira Turma do Superior Tribunal de Justiça (STJ) decidiu, por unanimidade, que o fato de o contrato de…</p>
+              <span class="press-more">Ler matéria <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+            </div>
+          </a>
+        </article>
+        <article class="press reveal" hidden data-more>
+          <a class="press-link" href="imprensa/o-seu-imovel-sera-um-fardo-para-os-herdeiros.html">
+            <div class="press-media"><img src="assets/imprensa/media/2026/03/02-300-x-300-site.jpg" alt="" width="300" height="300" loading="lazy"></div>
+            <div class="press-body">
+              <time datetime="2026-03-20">20 mar 2026</time>
+              <h3>O seu imóvel será um FARDO para os herdeiros</h3>
+              <p>Sim, depois de anos pagando, reformando ou vivendo com sua familia, o imóvel pode se tornar um grande problema.…</p>
+              <span class="press-more">Ler matéria <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+            </div>
+          </a>
+        </article>
+        <article class="press reveal" hidden data-more>
+          <a class="press-link" href="imprensa/liminar-oab-sp-assegura-a-sustentacao-oral-no-tjsp.html">
+            <div class="press-media"><img src="assets/imprensa/media/2026/02/02-300-x-300-site.jpg" alt="" width="300" height="300" loading="lazy"></div>
+            <div class="press-body">
+              <time datetime="2026-02-20">20 fev 2026</time>
+              <h3>Liminar OAB/SP assegura a Sustentação Oral no TJSP</h3>
+              <p>OAB SP garante no CNJ que sustentação oral seja respeitada pelo TJSP Decisão cautelar do Conselho acolhe pedido…</p>
+              <span class="press-more">Ler matéria <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+            </div>
+          </a>
+        </article>
+      </div>
+      <div class="press-actions">
+        <button class="btn navy" type="button" id="press-more" aria-controls="press-grid">Carregar mais notícias</button>
+        <a class="btn outline" href="imprensa/index.html">Ver todas as publicações
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="contact" aria-labelledby="contato-title">
+    <div class="container contact-grid">
+      <div>
+        <span class="eyebrow reveal">Contato</span>
+        <h2 id="contato-title" class="reveal d1">Entre em contato com <em>nosso escritório</em></h2>
+        <p class="intro reveal d2">Pelegrinelli e Padoan Sociedade de Advogados. Atendimento a pessoas físicas e jurídicas, com orientação preventiva e atuação contenciosa.</p>
+        <ul class="contact-list reveal d2">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            <div><small>Localizado em: Clavi Ecco Tower</small><address>R. Joseph Zarzour, 93 – Sala 1203<br>Centro, Guarulhos – SP, 07020-081</address></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg>
+            <div><small>Telefone</small><a href="tel:+551124402759">(11) 2440-2759</a></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+            <div><small>WhatsApp</small><a href="https://api.whatsapp.com/send/?phone=5511943825880&amp;text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20falar%20com%20o%20escrit%C3%B3rio." target="_blank" rel="noopener noreferrer">(11) 94382-5880</a></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="M3 7l9 6 9-6"/></svg>
+            <div><small>E-mail</small><a href="mailto:ppadv@ppadv.com.br">ppadv@ppadv.com.br</a></div>
+          </li>
+        </ul>
+        <p class="social-title reveal d3">Siga o escritório nas redes</p>
+        <div class="social social-contact reveal d3" aria-label="Redes sociais">
+        <a href="https://api.whatsapp.com/send/?phone=5511943825880&amp;text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20falar%20com%20o%20escrit%C3%B3rio." target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg></a>
+        <a href="https://www.instagram.com/pelegrinelliepadoan/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"/></svg></a>
+        <a href="https://www.facebook.com/pelegrinelliepadoan/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 8.5V6.8c0-.8.5-1 1-1h2V2.5h-2.8C11.1 2.5 10.5 4.6 10.5 6v2.5H8V12h2.5v9.5H14V12h2.6l.4-3.5Z"/></svg></a>
+        <a href="https://www.linkedin.com/company/pelegrinelli_e_padoan_sociedade_de_advogados./" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.5 3.5a2 2 0 1 1 0 4 2 2 0 0 1 0-4ZM3 9h3v12H3V9Zm5 0h2.9v1.7c.4-.8 1.4-1.9 3.4-1.9 3.4 0 4.2 2.2 4.2 5.2V21h-3v-6.2c0-1.5 0-3.3-2-3.3s-2.4 1.6-2.4 3.2V21H8V9Z"/></svg></a>
+        <a href="https://www.youtube.com/@pelegrinelliepadoan883" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 8.2a3 3 0 0 0-2.1-2.1C18 5.6 12 5.6 12 5.6s-6 0-7.9.5A3 3 0 0 0 2 8.2 31 31 0 0 0 1.6 12 31 31 0 0 0 2 15.8a3 3 0 0 0 2.1 2.1c1.9.5 7.9.5 7.9.5s6 0 7.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .4-3.8 31 31 0 0 0-.4-3.8ZM10 15.1V8.9l5.2 3.1L10 15.1Z"/></svg></a>
+      </div>
+        <div class="map-card reveal d3">
+          <div class="map">
+            <iframe title="Mapa do Google: Pelegrinelli e Padoan Advogados, R. Joseph Zarzour, 93, Guarulhos" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"
+              src="https://maps.google.com/maps?q=Pelegrinelli%20e%20Padoan%20Advogados%2C%20R.%20Joseph%20Zarzour%2C%2093%20-%20Centro%2C%20Guarulhos%20-%20SP%2C%2007020-081&amp;t=m&amp;z=17&amp;hl=pt-BR&amp;output=embed"></iframe>
+            <div class="map-chip" aria-hidden="true"><span class="dot"></span>Clavi Ecco Tower · Sala 1203</div>
+          </div>
+          <div class="map-actions">
+            <a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=Pelegrinelli%20e%20Padoan%20Advogados%2C%20R.%20Joseph%20Zarzour%2C%2093%20-%20Centro%2C%20Guarulhos%20-%20SP%2C%2007020-081" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Rota no Google Maps</a>
+            <a class="btn ghost" href="https://waze.com/ul?ll=-23.47086,-46.53465&amp;navigate=yes" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 11l18-8-8 18-2-8-8-2Z"/></svg>Ir com Waze</a>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form reveal d2" id="form" novalidate>
+        <h3>Envie sua mensagem</h3>
+        <p>Preencha os campos abaixo com uma breve explicação do seu problema.</p>
+        <div class="row">
+          <div class="field"><label for="nome">Nome <span aria-hidden="true">*</span></label><input id="nome" name="nome" autocomplete="given-name" required maxlength="80"></div>
+          <div class="field"><label for="sobrenome">Sobrenome</label><input id="sobrenome" name="sobrenome" autocomplete="family-name" maxlength="80"></div>
+        </div>
+        <div class="field"><label for="email">E-mail <span aria-hidden="true">*</span></label><input id="email" name="email" type="email" autocomplete="email" required maxlength="120"></div>
+        <div class="field"><label for="mensagem">Mensagem <span aria-hidden="true">*</span></label><textarea id="mensagem" name="mensagem" required maxlength="2000"></textarea></div>
+        <button class="btn navy" type="submit">Enviar
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        <p class="form-note">Ao enviar, seu aplicativo de e-mail será aberto com a mensagem pronta para ppadv@ppadv.com.br.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="foot">
+      <img src="assets/logo-vivo.png" alt="Pelegrinelli & Padoan Advogados" width="1756" height="504" loading="lazy">
+      <div class="foot-info">
+        <strong>Pelegrinelli e Padoan Sociedade de Advogados</strong><br>
+        Clavi Ecco Tower · R. Joseph Zarzour, 93 – Sala 1203 · Centro, Guarulhos – SP, 07020-081<br>
+        <a href="tel:+551124402759">(11) 2440-2759</a> · <a href="mailto:ppadv@ppadv.com.br">ppadv@ppadv.com.br</a>
+      </div>
+      <div class="social">
+        <a href="https://api.whatsapp.com/send/?phone=5511943825880&amp;text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20falar%20com%20o%20escrit%C3%B3rio." target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg></a>
+        <a href="https://www.instagram.com/pelegrinelliepadoan/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"/></svg></a>
+        <a href="https://www.facebook.com/pelegrinelliepadoan/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 8.5V6.8c0-.8.5-1 1-1h2V2.5h-2.8C11.1 2.5 10.5 4.6 10.5 6v2.5H8V12h2.5v9.5H14V12h2.6l.4-3.5Z"/></svg></a>
+        <a href="https://www.linkedin.com/company/pelegrinelli_e_padoan_sociedade_de_advogados./" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.5 3.5a2 2 0 1 1 0 4 2 2 0 0 1 0-4ZM3 9h3v12H3V9Zm5 0h2.9v1.7c.4-.8 1.4-1.9 3.4-1.9 3.4 0 4.2 2.2 4.2 5.2V21h-3v-6.2c0-1.5 0-3.3-2-3.3s-2.4 1.6-2.4 3.2V21H8V9Z"/></svg></a>
+        <a href="https://www.youtube.com/@pelegrinelliepadoan883" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 8.2a3 3 0 0 0-2.1-2.1C18 5.6 12 5.6 12 5.6s-6 0-7.9.5A3 3 0 0 0 2 8.2 31 31 0 0 0 1.6 12 31 31 0 0 0 2 15.8a3 3 0 0 0 2.1 2.1c1.9.5 7.9.5 7.9.5s6 0 7.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .4-3.8 31 31 0 0 0-.4-3.8ZM10 15.1V8.9l5.2 3.1L10 15.1Z"/></svg></a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="ano">2026</span> PP Advogados · Pelegrinelli e Padoan Sociedade de Advogados. Todos os direitos reservados.</span>
+      <a href="#topo">Voltar ao topo ↑</a>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://api.whatsapp.com/send/?phone=5511943825880&amp;text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20falar%20com%20o%20escrit%C3%B3rio." target="_blank" rel="noopener noreferrer" aria-label="Fale pelo WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+</a>
+
+<dialog class="lightbox" id="lightbox" aria-label="Galeria de fotos">
+  <img class="lb-img" id="lb-img" src="" alt="">
+  <p class="lb-cap" id="lb-cap"></p>
+  <button class="lb-btn lb-close" type="button" id="lb-close" aria-label="Fechar galeria"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  <button class="lb-btn lb-prev" type="button" id="lb-prev" aria-label="Foto anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button>
+  <button class="lb-btn lb-next" type="button" id="lb-next" aria-label="Próxima foto"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
+</dialog>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+(function(){
+  'use strict';
+  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.getElementById('ano').textContent = new Date().getFullYear();
+
+  /* ---------- Header + menu ---------- */
+  var header = document.querySelector('header.site');
+  var onScroll = function(){
+    header.classList.toggle('scrolled', window.scrollY > 30);
+    document.documentElement.style.setProperty('--header-h', header.offsetHeight + 'px');
+  };
+  window.addEventListener('resize', onScroll);
+  window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+
+  var burger = document.getElementById('burger'), menu = document.getElementById('menu');
+  var setMenu = function(open){
+    menu.classList.toggle('open', open);
+    burger.setAttribute('aria-expanded', String(open));
+    burger.setAttribute('aria-label', open ? 'Fechar menu' : 'Abrir menu');
+  };
+  burger.addEventListener('click', function(){ setMenu(!menu.classList.contains('open')); });
+  menu.addEventListener('click', function(e){ if (e.target.tagName === 'A') setMenu(false); });
+  document.addEventListener('keydown', function(e){ if (e.key === 'Escape') setMenu(false); });
+
+  /* Destaca a seção atual no menu */
+  var links = Array.prototype.slice.call(menu.querySelectorAll('a'));
+  if ('IntersectionObserver' in window){
+    var spy = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if (!en.isIntersecting) return;
+        links.forEach(function(a){ a.classList.toggle('active', a.getAttribute('href') === '#' + en.target.id); });
+      });
+    }, {rootMargin:'-45% 0px -50% 0px'});
+    links.forEach(function(a){ var s = document.querySelector(a.getAttribute('href')); if (s) spy.observe(s); });
+  }
+
+  /* ---------- Reveal ---------- */
+  if ('IntersectionObserver' in window && !reduceMotion){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if (en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); }
+      });
+    }, {threshold:.12, rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+  } else {
+    document.querySelectorAll('.reveal').forEach(function(el){ el.classList.add('in'); });
+  }
+
+  /* ---------- Tilt 3D ---------- */
+  if (!reduceMotion && window.matchMedia('(hover: hover)').matches){
+    document.querySelectorAll('[data-tilt]').forEach(function(el){
+      var max = +el.dataset.tilt || 10;
+      el.addEventListener('mousemove', function(e){
+        var r = el.getBoundingClientRect();
+        var x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
+        el.style.transform = 'rotateY(' + ((x - .5) * max) + 'deg) rotateX(' + ((.5 - y) * max) + 'deg)';
+        el.style.setProperty('--mx', (x * 100) + '%');
+        el.style.setProperty('--my', (y * 100) + '%');
+      });
+      el.addEventListener('mouseleave', function(){ el.style.transform = ''; });
+    });
+  }
+
+  /* ---------- Imprensa: carregar mais ---------- */
+  var moreBtn = document.getElementById('press-more');
+  if (moreBtn){
+    var hiddenPress = function(){ return document.querySelectorAll('#press-grid .press[hidden]'); };
+    if (!hiddenPress().length) moreBtn.hidden = true;
+    moreBtn.addEventListener('click', function(){
+      var list = hiddenPress();
+      for (var n = 0; n < Math.min(6, list.length); n++){ list[n].hidden = false; list[n].classList.add('in'); }
+      if (!hiddenPress().length) moreBtn.hidden = true;
+    });
+  }
+
+  /* ---------- Galeria (lightbox) ---------- */
+  var galleries = {
+    premio: [{src:'assets/premio-lider.jpg', cap:'Prêmio Líder Empresarial Guarulhos 2019'}],
+    llm: [
+      {src:'assets/llm-1.jpg', cap:'Dr. Dennis Pelegrinelli · Loyola University Chicago'},
+      {src:'assets/llm-2.jpg', cap:'Quinlan School of Business · Chicago/EUA'}
+    ],
+    insper: [
+      {src:'assets/insper-2.jpg', cap:'Turma de Educação Executiva · Insper/SP'},
+      {src:'assets/insper-1.jpg', cap:'Recebimento dos certificados · Insper/SP'}
+    ]
+  };
+  var lb = document.getElementById('lightbox'), lbImg = document.getElementById('lb-img'), lbCap = document.getElementById('lb-cap');
+  var prev = document.getElementById('lb-prev'), next = document.getElementById('lb-next');
+  var cur = [], idx = 0, opener = null;
+  var show = function(i){
+    idx = (i + cur.length) % cur.length;
+    lbImg.src = cur[idx].src; lbImg.alt = cur[idx].cap; lbCap.textContent = cur[idx].cap + (cur.length > 1 ? '  ·  ' + (idx + 1) + '/' + cur.length : '');
+    prev.hidden = next.hidden = cur.length < 2;
+  };
+  document.querySelectorAll('[data-gallery]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      cur = galleries[btn.dataset.gallery] || []; if (!cur.length) return;
+      opener = btn; show(0);
+      if (typeof lb.showModal === 'function') lb.showModal(); else window.open(cur[0].src, '_blank', 'noopener');
+    });
+  });
+  prev.addEventListener('click', function(){ show(idx - 1); });
+  next.addEventListener('click', function(){ show(idx + 1); });
+  document.getElementById('lb-close').addEventListener('click', function(){ lb.close(); });
+  lb.addEventListener('click', function(e){ if (e.target === lb) lb.close(); });
+  lb.addEventListener('keydown', function(e){
+    if (e.key === 'ArrowLeft') show(idx - 1);
+    if (e.key === 'ArrowRight') show(idx + 1);
+  });
+  lb.addEventListener('close', function(){ if (opener) opener.focus(); });
+
+  /* ---------- Formulário: abre o e-mail com a mensagem pronta (site estático, sem backend) ---------- */
+  var form = document.getElementById('form'), status = document.getElementById('form-status');
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    if (!form.checkValidity()){
+      status.textContent = 'Preencha nome, e-mail válido e mensagem.';
+      var bad = form.querySelector(':invalid'); if (bad) bad.focus();
+      return;
+    }
+    var clean = function(v){ return String(v).replace(/[\r\n]+/g, ' ').trim(); };
+    var nome = clean(form.nome.value + ' ' + form.sobrenome.value);
+    var subject = 'Contato pelo site - ' + nome;
+    var body = 'Nome: ' + nome + '\nE-mail: ' + clean(form.email.value) + '\n\n' + form.mensagem.value.trim();
+    window.location.href = 'mailto:ppadv@ppadv.com.br?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+    status.textContent = 'Abrindo seu aplicativo de e-mail…';
+  });
+
+  /* ---------- Cena 3D: balança da justiça ---------- */
+  var canvas = document.getElementById('scene');
+  if (typeof THREE === 'undefined' || !canvas) return;
+
+  var renderer;
+  try { renderer = new THREE.WebGLRenderer({canvas:canvas, antialias:true, alpha:true}); }
+  catch (err) { return; } // sem WebGL: o hero continua legível
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+  renderer.outputEncoding = THREE.sRGBEncoding;
+
+  var scene = new THREE.Scene();
+  var camera = new THREE.PerspectiveCamera(35, 1, 0.1, 100);
+  camera.position.set(0, 0.6, 13);
+
+  scene.add(new THREE.AmbientLight(0x1a2b4a, 1.2));
+  var key = new THREE.DirectionalLight(0xffe2a8, 2.2); key.position.set(5, 8, 6); scene.add(key);
+  var rim = new THREE.PointLight(0x6f8fd0, 2.5, 30); rim.position.set(-6, 2, -4); scene.add(rim);
+  var warm = new THREE.PointLight(0xc9a45c, 2, 20); warm.position.set(3, -3, 5); scene.add(warm);
+
+  var gold = new THREE.MeshStandardMaterial({color:0xc9a45c, metalness:1, roughness:0.28});
+  var goldDark = new THREE.MeshStandardMaterial({color:0x9c7a3a, metalness:1, roughness:0.4});
+  var marble = new THREE.MeshStandardMaterial({color:0x1a2b4a, metalness:0.3, roughness:0.35});
+
+  var scales = new THREE.Group();
+  scene.add(scales);
+
+  // Base em degraus
+  [[2.6,0.22,-3.3],[2.0,0.22,-3.08],[1.4,0.2,-2.87]].forEach(function(s,i){
+    var m = new THREE.Mesh(new THREE.CylinderGeometry(s[0]*0.5, s[0]*0.55, s[1], 64), i === 0 ? marble : goldDark);
+    m.position.y = s[2]; scales.add(m);
+  });
+  // Coluna
+  var column = new THREE.Mesh(new THREE.CylinderGeometry(0.16, 0.22, 5.4, 32), gold);
+  column.position.y = -0.1; scales.add(column);
+  for (var i = 0; i < 3; i++){
+    var ring = new THREE.Mesh(new THREE.TorusGeometry(0.22 - i*0.02, 0.035, 16, 48), goldDark);
+    ring.rotation.x = Math.PI/2; ring.position.y = -2.2 + i*1.9; scales.add(ring);
+  }
+  var finial = new THREE.Mesh(new THREE.SphereGeometry(0.28, 32, 32), gold);
+  finial.position.y = 2.85; scales.add(finial);
+  var tip = new THREE.Mesh(new THREE.ConeGeometry(0.12, 0.45, 32), gold);
+  tip.position.y = 3.3; scales.add(tip);
+
+  // Travessão (oscila)
+  var beamPivot = new THREE.Group(); beamPivot.position.y = 2.55; scales.add(beamPivot);
+  var beam = new THREE.Mesh(new THREE.CylinderGeometry(0.06, 0.06, 5.2, 24), gold);
+  beam.rotation.z = Math.PI/2; beamPivot.add(beam);
+  [-2.6, 2.6].forEach(function(x){
+    var cap = new THREE.Mesh(new THREE.SphereGeometry(0.11, 24, 24), gold);
+    cap.position.x = x; beamPivot.add(cap);
+  });
+
+  // Pratos pendurados
+  var pans = [];
+  function makePan(x){
+    var hang = new THREE.Group(); hang.position.x = x; beamPivot.add(hang);
+    var chainLen = 2.1, panR = 0.75;
+    // três correntes do ponto de suspensão até a borda do prato
+    for (var k = 0; k < 3; k++){
+      var a = k / 3 * Math.PI * 2;
+      var dir = new THREE.Vector3(Math.cos(a) * panR, -chainLen, Math.sin(a) * panR);
+      var c = new THREE.Mesh(new THREE.CylinderGeometry(0.012, 0.012, dir.length(), 6), goldDark);
+      c.position.copy(dir).multiplyScalar(0.5);
+      c.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), dir.clone().normalize());
+      hang.add(c);
+    }
+    // prato em forma de cúpula invertida, com a borda na altura das correntes
+    var panMat = gold.clone(); panMat.side = THREE.DoubleSide;
+    var pan = new THREE.Mesh(new THREE.SphereGeometry(panR, 48, 24, 0, Math.PI*2, Math.PI/2, Math.PI/2.6), panMat);
+    pan.position.y = -chainLen; hang.add(pan);
+    var rimRing = new THREE.Mesh(new THREE.TorusGeometry(panR, 0.025, 12, 64), gold);
+    rimRing.rotation.x = Math.PI/2; rimRing.position.y = -chainLen; hang.add(rimRing);
+    pans.push(hang);
+  }
+  makePan(-2.6); makePan(2.6);
+
+  // Partículas douradas
+  var pCount = window.innerWidth < 700 ? 260 : 600;
+  var pGeo = new THREE.BufferGeometry(), pos = new Float32Array(pCount * 3), speed = new Float32Array(pCount);
+  for (var j = 0; j < pCount; j++){
+    pos[j*3] = (Math.random() - .5) * 26;
+    pos[j*3+1] = (Math.random() - .5) * 16;
+    pos[j*3+2] = (Math.random() - .5) * 14 - 2;
+    speed[j] = 0.002 + Math.random() * 0.006;
+  }
+  pGeo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+  var particles = new THREE.Points(pGeo, new THREE.PointsMaterial({color:0xe6cc93, size:0.045, transparent:true, opacity:0.75, depthWrite:false}));
+  scene.add(particles);
+
+  // Anéis orbitais
+  var orbit = new THREE.Group(); scene.add(orbit);
+  [4.2, 5.1].forEach(function(r, n){
+    var o = new THREE.Mesh(new THREE.TorusGeometry(r, 0.006, 8, 160), new THREE.MeshBasicMaterial({color:0xc9a45c, transparent:true, opacity:0.25 - n*0.08}));
+    o.rotation.x = Math.PI/2.3 + n * 0.15; o.rotation.y = n * 0.4; orbit.add(o);
+  });
+
+  var baseY = 0;
+  function layout(){
+    var w = canvas.clientWidth, h = canvas.clientHeight;
+    renderer.setSize(w, h, false);
+    camera.aspect = w / h; camera.updateProjectionMatrix();
+    var mobile = w < 960;
+    baseY = mobile ? -0.4 : -0.2;
+    scales.position.set(mobile ? 0 : 3.6, baseY, mobile ? -4 : 0);
+    orbit.position.copy(scales.position); orbit.position.y += 0.6;
+    scales.scale.setScalar(mobile ? 0.85 : 1);
+    canvas.style.opacity = mobile ? '0.35' : '1';
+  }
+  window.addEventListener('resize', layout); layout();
+
+  var mouse = {x:0, y:0}, target = {x:0, y:0};
+  window.addEventListener('pointermove', function(e){
+    target.x = (e.clientX / window.innerWidth - .5);
+    target.y = (e.clientY / window.innerHeight - .5);
+  }, {passive:true});
+
+  var visible = true;
+  if ('IntersectionObserver' in window){
+    new IntersectionObserver(function(en){ visible = en[0].isIntersecting; }).observe(canvas);
+  }
+
+  var clock = new THREE.Clock();
+  function frame(){
+    requestAnimationFrame(frame);
+    if (!visible) return;
+    var t = clock.getElapsedTime();
+    mouse.x += (target.x - mouse.x) * 0.05;
+    mouse.y += (target.y - mouse.y) * 0.05;
+
+    var swing = Math.sin(t * 0.9) * 0.09 + mouse.x * 0.12;
+    beamPivot.rotation.z = swing;
+    pans.forEach(function(p){ p.rotation.z = -swing; }); // pratos ficam na vertical
+
+    scales.rotation.y = t * 0.25 + mouse.x * 0.6;
+    scales.rotation.x = mouse.y * 0.15;
+    scales.position.y = baseY + Math.sin(t * 1.2) * 0.08;
+    orbit.rotation.y = t * 0.12; orbit.rotation.z = Math.sin(t * .3) * .1;
+
+    var arr = pGeo.attributes.position.array;
+    for (var k = 0; k < pCount; k++){
+      arr[k*3+1] += speed[k];
+      if (arr[k*3+1] > 8) arr[k*3+1] = -8;
+    }
+    pGeo.attributes.position.needsUpdate = true;
+    particles.rotation.y = t * 0.02;
+
+    camera.position.x = mouse.x * 0.8;
+    camera.position.y = 0.6 - mouse.y * 0.5;
+    camera.lookAt(scales.position.x * 0.5, 0.3, 0);
+    renderer.render(scene, camera);
+  }
+
+  if (reduceMotion) renderer.render(scene, camera);
+  else frame();
+})();
+</script>
+</body>
+</html>
